@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A56C00CC21AF281E0065C762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00CB21AF281E0065C762 /* AppDelegate.swift */; };
+		A56C00CE21AF281E0065C762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00CD21AF281E0065C762 /* ViewController.swift */; };
+		A56C00D121AF281E0065C762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56C00CF21AF281E0065C762 /* Main.storyboard */; };
+		A56C00D321AF281F0065C762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56C00D221AF281F0065C762 /* Assets.xcassets */; };
+		A56C00D621AF281F0065C762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56C00D421AF281F0065C762 /* LaunchScreen.storyboard */; };
+		A56C00E121AF281F0065C762 /* Bharat_Cement_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00E021AF281F0065C762 /* Bharat_Cement_StoreTests.swift */; };
+		A56C00EC21AF281F0065C762 /* Bharat_Cement_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00EB21AF281F0065C762 /* Bharat_Cement_StoreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A56C00DD21AF281F0065C762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56C00C021AF281E0065C762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56C00C721AF281E0065C762;
+			remoteInfo = "Bharat Cement Store";
+		};
+		A56C00E821AF281F0065C762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A56C00C021AF281E0065C762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56C00C721AF281E0065C762;
+			remoteInfo = "Bharat Cement Store";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A56C00C821AF281E0065C762 /* Bharat Cement Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bharat Cement Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56C00CB21AF281E0065C762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A56C00CD21AF281E0065C762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A56C00D021AF281E0065C762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A56C00D221AF281F0065C762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A56C00D521AF281F0065C762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A56C00D721AF281F0065C762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56C00DC21AF281F0065C762 /* Bharat Cement StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bharat Cement StoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56C00E021AF281F0065C762 /* Bharat_Cement_StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bharat_Cement_StoreTests.swift; sourceTree = "<group>"; };
+		A56C00E221AF281F0065C762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56C00E721AF281F0065C762 /* Bharat Cement StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bharat Cement StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A56C00EB21AF281F0065C762 /* Bharat_Cement_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bharat_Cement_StoreUITests.swift; sourceTree = "<group>"; };
+		A56C00ED21AF281F0065C762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A56C00C521AF281E0065C762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56C00D921AF281F0065C762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56C00E421AF281F0065C762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A56C00BF21AF281E0065C762 = {
+			isa = PBXGroup;
+			children = (
+				A56C00CA21AF281E0065C762 /* Bharat Cement Store */,
+				A56C00DF21AF281F0065C762 /* Bharat Cement StoreTests */,
+				A56C00EA21AF281F0065C762 /* Bharat Cement StoreUITests */,
+				A56C00C921AF281E0065C762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A56C00C921AF281E0065C762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A56C00C821AF281E0065C762 /* Bharat Cement Store.app */,
+				A56C00DC21AF281F0065C762 /* Bharat Cement StoreTests.xctest */,
+				A56C00E721AF281F0065C762 /* Bharat Cement StoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A56C00CA21AF281E0065C762 /* Bharat Cement Store */ = {
+			isa = PBXGroup;
+			children = (
+				A56C00CB21AF281E0065C762 /* AppDelegate.swift */,
+				A56C00CD21AF281E0065C762 /* ViewController.swift */,
+				A56C00CF21AF281E0065C762 /* Main.storyboard */,
+				A56C00D221AF281F0065C762 /* Assets.xcassets */,
+				A56C00D421AF281F0065C762 /* LaunchScreen.storyboard */,
+				A56C00D721AF281F0065C762 /* Info.plist */,
+			);
+			path = "Bharat Cement Store";
+			sourceTree = "<group>";
+		};
+		A56C00DF21AF281F0065C762 /* Bharat Cement StoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A56C00E021AF281F0065C762 /* Bharat_Cement_StoreTests.swift */,
+				A56C00E221AF281F0065C762 /* Info.plist */,
+			);
+			path = "Bharat Cement StoreTests";
+			sourceTree = "<group>";
+		};
+		A56C00EA21AF281F0065C762 /* Bharat Cement StoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A56C00EB21AF281F0065C762 /* Bharat_Cement_StoreUITests.swift */,
+				A56C00ED21AF281F0065C762 /* Info.plist */,
+			);
+			path = "Bharat Cement StoreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A56C00C721AF281E0065C762 /* Bharat Cement Store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56C00F021AF281F0065C762 /* Build configuration list for PBXNativeTarget "Bharat Cement Store" */;
+			buildPhases = (
+				A56C00C421AF281E0065C762 /* Sources */,
+				A56C00C521AF281E0065C762 /* Frameworks */,
+				A56C00C621AF281E0065C762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bharat Cement Store";
+			productName = "Bharat Cement Store";
+			productReference = A56C00C821AF281E0065C762 /* Bharat Cement Store.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A56C00DB21AF281F0065C762 /* Bharat Cement StoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56C00F321AF281F0065C762 /* Build configuration list for PBXNativeTarget "Bharat Cement StoreTests" */;
+			buildPhases = (
+				A56C00D821AF281F0065C762 /* Sources */,
+				A56C00D921AF281F0065C762 /* Frameworks */,
+				A56C00DA21AF281F0065C762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56C00DE21AF281F0065C762 /* PBXTargetDependency */,
+			);
+			name = "Bharat Cement StoreTests";
+			productName = "Bharat Cement StoreTests";
+			productReference = A56C00DC21AF281F0065C762 /* Bharat Cement StoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A56C00E621AF281F0065C762 /* Bharat Cement StoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56C00F621AF281F0065C762 /* Build configuration list for PBXNativeTarget "Bharat Cement StoreUITests" */;
+			buildPhases = (
+				A56C00E321AF281F0065C762 /* Sources */,
+				A56C00E421AF281F0065C762 /* Frameworks */,
+				A56C00E521AF281F0065C762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A56C00E921AF281F0065C762 /* PBXTargetDependency */,
+			);
+			name = "Bharat Cement StoreUITests";
+			productName = "Bharat Cement StoreUITests";
+			productReference = A56C00E721AF281F0065C762 /* Bharat Cement StoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A56C00C021AF281E0065C762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Puneet Kaushal";
+				TargetAttributes = {
+					A56C00C721AF281E0065C762 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A56C00DB21AF281F0065C762 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A56C00C721AF281E0065C762;
+					};
+					A56C00E621AF281F0065C762 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A56C00C721AF281E0065C762;
+					};
+				};
+			};
+			buildConfigurationList = A56C00C321AF281E0065C762 /* Build configuration list for PBXProject "Bharat Cement Store" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A56C00BF21AF281E0065C762;
+			productRefGroup = A56C00C921AF281E0065C762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A56C00C721AF281E0065C762 /* Bharat Cement Store */,
+				A56C00DB21AF281F0065C762 /* Bharat Cement StoreTests */,
+				A56C00E621AF281F0065C762 /* Bharat Cement StoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A56C00C621AF281E0065C762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56C00D621AF281F0065C762 /* LaunchScreen.storyboard in Resources */,
+				A56C00D321AF281F0065C762 /* Assets.xcassets in Resources */,
+				A56C00D121AF281E0065C762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56C00DA21AF281F0065C762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56C00E521AF281F0065C762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A56C00C421AF281E0065C762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56C00CE21AF281E0065C762 /* ViewController.swift in Sources */,
+				A56C00CC21AF281E0065C762 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56C00D821AF281F0065C762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56C00E121AF281F0065C762 /* Bharat_Cement_StoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56C00E321AF281F0065C762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56C00EC21AF281F0065C762 /* Bharat_Cement_StoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A56C00DE21AF281F0065C762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56C00C721AF281E0065C762 /* Bharat Cement Store */;
+			targetProxy = A56C00DD21AF281F0065C762 /* PBXContainerItemProxy */;
+		};
+		A56C00E921AF281F0065C762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56C00C721AF281E0065C762 /* Bharat Cement Store */;
+			targetProxy = A56C00E821AF281F0065C762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A56C00CF21AF281E0065C762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56C00D021AF281E0065C762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A56C00D421AF281F0065C762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A56C00D521AF281F0065C762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A56C00EE21AF281F0065C762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A56C00EF21AF281F0065C762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A56C00F121AF281F0065C762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9XWATSYCG;
+				INFOPLIST_FILE = "Bharat Cement Store/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuneetKaushal.Bharat-Cement-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A56C00F221AF281F0065C762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9XWATSYCG;
+				INFOPLIST_FILE = "Bharat Cement Store/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuneetKaushal.Bharat-Cement-Store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A56C00F421AF281F0065C762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9XWATSYCG;
+				INFOPLIST_FILE = "Bharat Cement StoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuneetKaushal.Bharat-Cement-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bharat Cement Store.app/Bharat Cement Store";
+			};
+			name = Debug;
+		};
+		A56C00F521AF281F0065C762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9XWATSYCG;
+				INFOPLIST_FILE = "Bharat Cement StoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuneetKaushal.Bharat-Cement-StoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bharat Cement Store.app/Bharat Cement Store";
+			};
+			name = Release;
+		};
+		A56C00F721AF281F0065C762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9XWATSYCG;
+				INFOPLIST_FILE = "Bharat Cement StoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuneetKaushal.Bharat-Cement-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bharat Cement Store";
+			};
+			name = Debug;
+		};
+		A56C00F821AF281F0065C762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X9XWATSYCG;
+				INFOPLIST_FILE = "Bharat Cement StoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PuneetKaushal.Bharat-Cement-StoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bharat Cement Store";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A56C00C321AF281E0065C762 /* Build configuration list for PBXProject "Bharat Cement Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56C00EE21AF281F0065C762 /* Debug */,
+				A56C00EF21AF281F0065C762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56C00F021AF281F0065C762 /* Build configuration list for PBXNativeTarget "Bharat Cement Store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56C00F121AF281F0065C762 /* Debug */,
+				A56C00F221AF281F0065C762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56C00F321AF281F0065C762 /* Build configuration list for PBXNativeTarget "Bharat Cement StoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56C00F421AF281F0065C762 /* Debug */,
+				A56C00F521AF281F0065C762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A56C00F621AF281F0065C762 /* Build configuration list for PBXNativeTarget "Bharat Cement StoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56C00F721AF281F0065C762 /* Debug */,
+				A56C00F821AF281F0065C762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A56C00C021AF281E0065C762 /* Project object */;
+}
