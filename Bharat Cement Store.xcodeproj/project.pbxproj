@@ -14,6 +14,8 @@
 		A56C00D621AF281F0065C762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56C00D421AF281F0065C762 /* LaunchScreen.storyboard */; };
 		A56C00E121AF281F0065C762 /* Bharat_Cement_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00E021AF281F0065C762 /* Bharat_Cement_StoreTests.swift */; };
 		A56C00EC21AF281F0065C762 /* Bharat_Cement_StoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00EB21AF281F0065C762 /* Bharat_Cement_StoreUITests.swift */; };
+		A56C00FA21AF4D860065C762 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00F921AF4D860065C762 /* RegisterPageViewController.swift */; };
+		A56C00FC21B3A5210065C762 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00FB21B3A5210065C762 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A56C00E721AF281F0065C762 /* Bharat Cement StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bharat Cement StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56C00EB21AF281F0065C762 /* Bharat_Cement_StoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bharat_Cement_StoreUITests.swift; sourceTree = "<group>"; };
 		A56C00ED21AF281F0065C762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56C00F921AF4D860065C762 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		A56C00FB21B3A5210065C762 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A56C00D221AF281F0065C762 /* Assets.xcassets */,
 				A56C00D421AF281F0065C762 /* LaunchScreen.storyboard */,
 				A56C00D721AF281F0065C762 /* Info.plist */,
+				A56C00F921AF4D860065C762 /* RegisterPageViewController.swift */,
+				A56C00FB21B3A5210065C762 /* LoginViewController.swift */,
 			);
 			path = "Bharat Cement Store";
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56C00FC21B3A5210065C762 /* LoginViewController.swift in Sources */,
 				A56C00CE21AF281E0065C762 /* ViewController.swift in Sources */,
 				A56C00CC21AF281E0065C762 /* AppDelegate.swift in Sources */,
+				A56C00FA21AF4D860065C762 /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

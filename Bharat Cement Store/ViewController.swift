@@ -14,10 +14,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func viewDidAppear(_ animated: Bool) {
+    
+    
+override func viewDidAppear(_ animated: Bool) {
+    
+    let isUserLoggedIn = UserDefaults.standard.bool(forKey: "isUserLoggedIn")
+    if(!isUserLoggedIn){
+    
         self.performSegue(withIdentifier: "loginView", sender: "self");
     }
+  }
     
+    
+    @IBAction func logoutButtonClicked(_ sender: Any) {
+        UserDefaults.standard.set(false, forKey:"isUserLoggedIn");
+        UserDefaults.standard.synchronize();
+        
+        self.performSegue(withIdentifier: "loginView", sender: "self");
+    }
+     
 }
 
