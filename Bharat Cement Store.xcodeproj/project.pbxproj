@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50CC02821C07B4200BFBB21 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CC02721C07B4200BFBB21 /* HomePageViewController.swift */; };
 		A56C00CC21AF281E0065C762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00CB21AF281E0065C762 /* AppDelegate.swift */; };
 		A56C00CE21AF281E0065C762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56C00CD21AF281E0065C762 /* ViewController.swift */; };
 		A56C00D121AF281E0065C762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56C00CF21AF281E0065C762 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A50CC02721C07B4200BFBB21 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		A56C00C821AF281E0065C762 /* Bharat Cement Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bharat Cement Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56C00CB21AF281E0065C762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A56C00CD21AF281E0065C762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				A56C00CB21AF281E0065C762 /* AppDelegate.swift */,
 				A56C00CD21AF281E0065C762 /* ViewController.swift */,
 				A56C00CF21AF281E0065C762 /* Main.storyboard */,
+				A50CC02721C07B4200BFBB21 /* HomePageViewController.swift */,
 				A56C00D221AF281F0065C762 /* Assets.xcassets */,
 				A56C00D421AF281F0065C762 /* LaunchScreen.storyboard */,
 				A56C00D721AF281F0065C762 /* Info.plist */,
@@ -265,6 +268,7 @@
 				A56C00FC21B3A5210065C762 /* LoginViewController.swift in Sources */,
 				A56C00CE21AF281E0065C762 /* ViewController.swift in Sources */,
 				A56C00CC21AF281E0065C762 /* AppDelegate.swift in Sources */,
+				A50CC02821C07B4200BFBB21 /* HomePageViewController.swift in Sources */,
 				A56C00FA21AF4D860065C762 /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

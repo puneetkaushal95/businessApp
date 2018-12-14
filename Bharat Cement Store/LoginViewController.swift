@@ -10,7 +10,8 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
-    @IBOutlet weak var userEmailTextField: UITextField!
+    
+    @IBOutlet weak var userMobileNumberTextField: UITextField!
     @IBOutlet weak var userPasswordTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,13 +21,13 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonTapped(_ sender: Any) {
         
-        let userEmail = userEmailTextField.text;
+        let userMobileNumber = userMobileNumberTextField.text;
         let userPassword = userPasswordTextField.text;
         
-        let userEmailStored = UserDefaults.standard.string(forKey: "userEmail");
+        let userMobileNumberStored = UserDefaults.standard.string(forKey: "userMobileNumber");
         let userPasswordStored = UserDefaults.standard.string(forKey: "userpassword ");
         
-        if (userEmailStored == userEmail)
+        if (userMobileNumberStored == userMobileNumber)
         {
             if (userPasswordStored == userPassword)
             {

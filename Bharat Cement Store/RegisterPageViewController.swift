@@ -10,7 +10,8 @@ import UIKit
 
 class RegisterPageViewController: UIViewController {
 
-    @IBOutlet weak var userEmailTextField: UITextField!
+    
+    @IBOutlet weak var userMobileTextField: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!
     
@@ -24,13 +25,13 @@ class RegisterPageViewController: UIViewController {
     
     @IBAction func registerButtonTapped(_ sender: Any) {
         
-        let userEmail =  userEmailTextField.text;
+        let userMobileNumber =  userMobileTextField.text;
         let userPassword = passwordTextField.text;
         let userRepeatPassword = repeatPasswordTextField.text;
         
         //checking empty fields
         
-        if(userEmail!.isEmpty || userPassword!.isEmpty || userRepeatPassword!.isEmpty)
+        if(userMobileNumber!.isEmpty || userPassword!.isEmpty || userRepeatPassword!.isEmpty)
         {
             //display alert message
             displayAlertMessage(userMessage: "All Fields are required !");
@@ -47,8 +48,8 @@ class RegisterPageViewController: UIViewController {
             return;
         }
         
-        //store data
-        UserDefaults.standard.set(userEmail,forKey:"userEmail");
+        //store data            
+        UserDefaults.standard.set(userMobileNumber,forKey:"userMobileNumber");
         UserDefaults.standard.set(userPassword,forKey:"userPassword");
         UserDefaults.standard.synchronize();
         
