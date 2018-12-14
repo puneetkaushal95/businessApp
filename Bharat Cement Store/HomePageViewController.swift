@@ -8,13 +8,27 @@
 
 import UIKit
 
-class HomePageViewController: UIViewController {
+class HomePageViewController: UIViewController, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return home.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell:UITableViewCell = UITableViewCell()
+        cell.textLabel?.text = home[indexPath.row]
+        return cell
+    }
+    
 
+    
+    @IBOutlet weak var homeScreenTable: UITableView!
+    var home:[String] = ["Item 1", "Item 2"]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+            // Do any additional setup after loading the view.
+        homeScreenTable.dataSource = self
     }
     
 
