@@ -27,7 +27,7 @@ class HomePageViewController: UIViewController, UITableViewDataSource, UITableVi
 
     
     @IBOutlet weak var homeScreenTable: UITableView!
-    var home:[String] = ["Item 1", "Item 2"]
+    var home:[String] = ["Home", "Contacts"]
     
     
     override func viewDidLoad() {
