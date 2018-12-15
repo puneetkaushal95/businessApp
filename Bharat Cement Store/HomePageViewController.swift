@@ -8,13 +8,18 @@
 
 import UIKit
 
-class HomePageViewController: UIViewController, UITableViewDataSource {
+class HomePageViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBOutlet weak var tblview: UITableView!
+    //@IBOutlet weak var tableview: UITableView!
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return home.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = UITableViewCell()
+        
+        let cell = self.tblview.dequeueReusableCell(withIdentifier: "cell")!
         cell.textLabel?.text = home[indexPath.row]
         return cell
     }
@@ -28,7 +33,12 @@ class HomePageViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
             // Do any additional setup after loading the view.
-        homeScreenTable.dataSource = self
+        self.tblview.dataSource = self
+        
+        self.title = "Welcome"
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        
+        
     }
     
 
